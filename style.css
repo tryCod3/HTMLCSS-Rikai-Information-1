@@ -22,6 +22,11 @@ ul {
     display: flex;
 }
 
+#container {
+    margin-top: 40px;
+    height: 100%;
+}
+
 .center {
     margin: auto;
 }
@@ -53,11 +58,12 @@ ul {
 
 .Header {
     display: flex;
-    margin-left: 37px;
+    width: 66%;
+    margin: auto;
 }
 
 .header__title {
-    flex-basis: 20%;
+    flex-basis: 22%;
 }
 
 .header__nav_link {
@@ -72,7 +78,7 @@ ul {
 
 .Body {
     display: flex;
-    margin-top: 60px;
+    margin: 60px 0;
     margin-right: -20px;
 }
 
@@ -112,4 +118,35 @@ ul {
 
 .body_about_des {
     text-align: left;
+}
+
+.footer {
+    display: flex;
+    margin: auto;
+    background-color: rgb(248, 142, 142);
+}
+
+.footer_wrap {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    margin: auto;
+}
+
+.footer__infomation {
+    display: flex;
+    flex-direction: row;
+    margin: 26px;
+}
+
+.footer__infomation__image {
+    background-color: rgb(131, 225, 248);
+    margin: auto;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.footer__infomation__about {
+    margin: auto;
+    margin-left: 10px;
 }
